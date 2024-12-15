@@ -16,13 +16,7 @@ function App() {
   console.log(token);
   return (
     <>
-      {/* <SignUp/> */}
-      {/* <LoginPage/> */}
       {token !== null && <Navbar />}
-      {/* <Navbar/> */}
-      {/* <Home/> */}
-      {/* <QuestionForm/> */}
-      {/* <MyPending/> */}
       <Routes>
         <Route
           path="/"
